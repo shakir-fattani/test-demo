@@ -1,0 +1,26 @@
+POST http://localhost:3000/bills/pay HTTP/1.1
+Content-Type: application/json
+
+{
+    "billIds": [
+        "6862806ef9ee7d6dbc0ea569",
+        "6862806ef9ee7d6dbc0ea56b",
+    ],
+    "userId": "6862806ef9ee7d6dbc0ea566"
+}
+
+#####
+POST http://localhost:3000/bills/pay HTTP/1.1
+Content-Type: application/json
+
+{
+    "billIds": [
+        "686282470e07f4aae0e2b099",
+        "686282470e07f4aae0e2b09b"
+    ],
+    "userId": "6862806ef9ee7d6dbc0ea566"
+}
+
+#####
+
+POST http://localhost:3000/users HTTP/1.1
